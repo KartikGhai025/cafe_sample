@@ -1,0 +1,33 @@
+name: cafe_sample
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.1
+  google_fonts: ^2.1.0
+  flutter_image_slideshow: ^0.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  - images/
+
